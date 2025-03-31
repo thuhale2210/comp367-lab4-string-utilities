@@ -31,4 +31,4 @@ steps:
   inputs:
     command: push
     packagesToPush: '$(outputDir)/*.nupkg'
-    publishVstsFeed: 'StringUtilitiesFeed'
+    publishVstsFeed: 'Lab4-Question1/StringUtilitiesFeed'

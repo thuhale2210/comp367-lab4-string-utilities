@@ -1,0 +1,34 @@
+trigger:
+  - main
+
+pool:
+  name: 'Default'
+
+variables:
+  buildConfiguration: 'Release'
+  outputDir: '$(Build.ArtifactStagingDirectory)'
+
+steps:
+- task: UseDotNet@2
+  inputs:
+    packageType: 'sdk'
+    version: '8.0.x'
+
+- script: dotnet restore
+  displayName: 'Restore dependencies'
+
+- script: dotnet build --configuration $(buildConfiguration)
+  displayName: 'Build project'
+
+- script: dotnet pack --configuration $(buildConfiguration) --output $(outputDir)
+  displayName: 'Pack NuGet package'
+
+- task: NuGetAuthenticate@1
+  displayName: 'Authenticate with Azure Artifacts'
+
+- task: NuGetCommand@2
+  displayName: 'Push to Azure Artifacts feed'
+  inputs:
+    command: push
+    packagesToPush: '$(outputDir)/*.nupkg'
+    publishVstsFeed: 'StringUtilitiesFeed'

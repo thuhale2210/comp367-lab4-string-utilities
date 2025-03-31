@@ -1,0 +1,11 @@
+C:\Users\kietg\source\repos\ClassLibraryProjects\SpringLibrary\bin\Debug\net8.0\SpringLibrary.deps.json
+C:\Users\kietg\source\repos\ClassLibraryProjects\SpringLibrary\bin\Debug\net8.0\SpringLibrary.dll
+C:\Users\kietg\source\repos\ClassLibraryProjects\SpringLibrary\bin\Debug\net8.0\SpringLibrary.pdb
+C:\Users\kietg\source\repos\ClassLibraryProjects\SpringLibrary\obj\Debug\net8.0\SpringLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kietg\source\repos\ClassLibraryProjects\SpringLibrary\obj\Debug\net8.0\SpringLibrary.AssemblyInfoInputs.cache
+C:\Users\kietg\source\repos\ClassLibraryProjects\SpringLibrary\obj\Debug\net8.0\SpringLibrary.AssemblyInfo.cs
+C:\Users\kietg\source\repos\ClassLibraryProjects\SpringLibrary\obj\Debug\net8.0\SpringLibrary.csproj.CoreCompileInputs.cache
+C:\Users\kietg\source\repos\ClassLibraryProjects\SpringLibrary\obj\Debug\net8.0\SpringLibrary.dll
+C:\Users\kietg\source\repos\ClassLibraryProjects\SpringLibrary\obj\Debug\net8.0\refint\SpringLibrary.dll
+C:\Users\kietg\source\repos\ClassLibraryProjects\SpringLibrary\obj\Debug\net8.0\SpringLibrary.pdb
+C:\Users\kietg\source\repos\ClassLibraryProjects\SpringLibrary\obj\Debug\net8.0\ref\SpringLibrary.dll
